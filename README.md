@@ -19,8 +19,8 @@ The primary goal of the SOC Automation Lab Project was to establish a robust, au
 - **Digital Ocean:**  Served as the cloud infrastructure provider for hosting our Wazuh servers.
 
 ## Steps:
-Design: I laid out a detailed plan for the SOC architecture, defining how the components would interact and ensuring scalability and efficiency.
-Install: Nect I set up the necessary infrastructure, including a Windows 10 client and Ubuntu servers, and installed Wazuh, Sysmon, Shuffle, and TheHive.
-Configure: Configured Sysmon to log events relevant to security, such as process creation, and directed these logs to Wazuh for analysis. We tailored Wazuh's rules to detect Mimikatz usage and other potential threats.
-Telemetry: Generated and ingested telemetry data into Wazuh, focusing on capturing and analyzing activities that could indicate a security breach.
-SOAR: Lastly, connected Shuffle to Wazuh and TheHive, creating a seamless process where detected threats were automatically turned into cases for investigation by SOC analysts.
+- **Design:** I laid out a detailed plan for the SOC architecture, defining how the components would interact and ensuring scalability and efficiency.
+- **Install:** Nect I set up the necessary infrastructure, including a Windows 10 client and Ubuntu servers, and installed Wazuh, Sysmon, Shuffle, and TheHive.
+- **Configure:** Configured Sysmon to log events relevant to security, such as process creation, and directed these logs to Wazuh for analysis. We tailored Wazuh's rules to detect Mimikatz usage and other potential threats.
+- **Telemetry:** Generated and ingested telemetry data into Wazuh, focusing on capturing and analyzing activities that could indicate a security breach.
+- **SOAR:** Lastly, connected Shuffle to Wazuh and TheHive, creating a seamless process where detected threats were automatically turned into cases for investigation by SOC analysts.
